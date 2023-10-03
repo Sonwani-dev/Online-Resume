@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin-top: 0 0 0 30%;
+  padding: 10px;
+  width: 950px;
+}
+
+h5,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profile-name-div {
+  background-color: #a2b0be;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.name,
+.occupation {
+  margin: 0 0 0 35%;
+  font-weight: normal;
+}
+
+.profile-name-div h3 {
+  border-bottom: 2px solid #fff;
+  width: 300px;
+}
+
+.candidate-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.right-details {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-details ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.left-details {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1d2d7;
+  padding: 10px 20px;
+  width: 500px;
+  gap: 200px;
+}
+
+.degree h5 {
+  margin-top: 20px;
+}
+
+.left-details h5 {
+  color: #5e646b;
+}
+
+.contact span {
+  margin-right: 10px;
+}
