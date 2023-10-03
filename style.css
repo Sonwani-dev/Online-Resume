@@ -11,6 +11,13 @@ body {
   margin-top: 0 0 0 30%;
   padding: 10px;
   width: 950px;
+  background-color: #f5efef;
+}
+
+.container,
+.profile-name-div,
+.left-details {
+  border-radius: 9px;
 }
 
 h5,
